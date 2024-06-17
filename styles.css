@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #cecece;
+}
+
+.container {
+    display: flex;
+}
+
+.left-card {
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-card img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.left-card h2 {
+    margin: 10px 0;
+}
+
+.right-content {
+    margin-left: 30%; /* Ensure this margin matches the width of .left-card */
+    width: 75%;
+    padding: 25px;
+}
+
+.right-content section {
+    margin-bottom: 40px;
+}
+
+.right-content h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.right-content p {
+    line-height: 1.6;
+}
+
+.projects-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.projects-list h2 {
+    margin-top: 0;
+}
