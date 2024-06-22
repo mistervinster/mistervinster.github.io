@@ -58,6 +58,7 @@ body {
 }
 
 .projects-list li {
+    width: 75%;
     margin-bottom: 20px;
     padding: 10px;
     background-color: #fff;
@@ -66,8 +67,36 @@ body {
     outline-color: blue;
     outline-width: 3px;
     outline-style: solid;
+    overflow: hidden;
+    max-height: 40px; /* Collapsed height */
+    transition: max-height 0.3s ease, padding 0.3s ease;
 }
 
 .projects-list h2 {
     margin-top: 0;
+}
+
+.projects-list p {
+    display: none; /* Hide description by default */
+}
+
+.projects-list li:hover {
+    max-height: 200px; /* Expanded height */
+    padding: 20px; /* Adjust padding for expanded state */
+}
+
+.projects-list li:hover p {
+    display: block; /* Show description on hover */
+}
+
+.box  {
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    outline-color: blue;
+    outline-width: 3px;
+    outline-style: solid;
 }
