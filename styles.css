@@ -4,6 +4,14 @@ body {
     background-color: #cecece;
 }
 
+h2 {
+    font-size: 1vw;
+}
+
+p {
+    font-size: .75vw;
+}
+
 .container {
     display: flex;
 }
