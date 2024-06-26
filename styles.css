@@ -67,7 +67,7 @@ p {
 
 .projects-list li {
     width: 75%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
@@ -89,7 +89,7 @@ p {
 }
 
 .projects-list li:hover {
-    max-height: 200px; /* Expanded height */
+    max-height: 300px; /* Expanded height */
     padding: 20px; /* Adjust padding for expanded state */
 }
 
