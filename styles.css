@@ -89,7 +89,7 @@ p {
 }
 
 .projects-list li:hover {
-    max-height: 300px; /* Expanded height */
+    max-height: fit-content;
     padding: 20px; /* Adjust padding for expanded state */
 }
 
